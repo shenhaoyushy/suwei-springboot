@@ -17,7 +17,7 @@ public class ManagerServiceApplication {
 
     public static void main(String[] args) throws InterruptedException {
 
-        System.out.println("-------------------------加载服务-----------------------------");
+        System.out.println("-------------------------加载商品管理服务-----------------------------");
 
         new SpringApplicationBuilder()
                 .sources(ManagerServiceApplication.class)
